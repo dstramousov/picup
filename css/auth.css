@@ -1,0 +1,16 @@
+html{background:url('../images/authBigBG.jpg') #000 no-repeat center top;}
+body{background:transparent;}
+div.bottomnavHolder{height:40px;background:#000;position:fixed;bottom:0px;line-height:40px;width:100%;}
+nav.bottom{bottom:0px;position:relative;}
+div.authWrap{width:270px;margin:0px auto;}
+div.authBlock{padding:30px;background:#000;color:#fff;text-align:center;}
+h1.pageTitle{color:#fff;font-size:36px;font-weight:300;font-family: "Segoe UI";line-height: 36px;}
+h2.formTitle{font-size:24px;color:#6cb601;}
+div.form{margin-top:60px;margin-bottom:20px;}
+form.login{margin-top:5px;}
+input.input{border:1px solid #626262;background:#000;height:32px;line-height:32px;width:190px;margin-top:15px;padding:0px 10px;color:#616161;}
+input[type=submit]{width:212px;height:35px;line-height:35px;background:url('../images/clock_bgs.png') #6cb601 repeat-x 0px -136px;font-size:24px;font-weight:bold;color:#000;border:0px;margin-top:15px;cursor:pointer;}
+a{color:#3e3e3e;font-size:12px;font-weight:normal;text-decoration:underline;}
+a:hover{color: #fff;}
+div.regBlock{padding:25px 30px;background:rgba(0,0,0,0.65);filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr='#10000000', EndColorStr='#10000000');text-align:center;}
+a.reglink{color:#fff;font-size:24px;font-weight:normal;text-decoration:underline;}

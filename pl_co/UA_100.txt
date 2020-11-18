@@ -1,0 +1,101 @@
+487462	Hora Stih	Hora Stih	Gora Stig,Gora Stog,Gora Stug,Hora Stih,Munte Stog,Stoch,Stog,Stogu,Stoh,Гора Стіг	47.96882	24.5624	T	MT	UA		25				0		1612	Europe/Uzhgorod	2012-06-05
+577871	Bilosarays’ka Kosa	Bilosarays'ka Kosa	Belosarajskaja Kosa,Belosarayka,Belosarayskaya Kosa,Bilosarays'ka Kosa,Bilosarays’ka Kosa,Белосарайская Коса	46.90497	37.3466	P	PPL	UA		05				0		0	Europe/Kiev	2012-01-17
+485524	Svistuny	Svistuny		47.72639	38.40694	P	PPL	UA		05				0		98	Europe/Kiev	1996-03-20
+461695	Stantsiya Krasnopartyzans’ka	Stantsiya Krasnopartyzans'ka	Krasnopartyzans'ka,Krasnopartyzans’ka,Stantsiya Krasno-Partizanskaya,Stantsiya Krasnopartyzans'ka,Stantsiya Krasnopartyzans’ka,Tashly-Dair	45.40145	34.21635	S	RSTN	UA		11				0		59	Europe/Simferopol	2012-01-17
+461697	Malyy Kuyal’nik	Malyy Kuyal'nik	Malyy Kuyal'nik,Malyy Kuyal’nik,Sredniy Kuyalnik	46.87082	30.45676	H	STM	UA		00				0		0	Europe/Simferopol	2012-01-17
+461727	Olenevka	Olenevka	Karadcha,Karadshi,Olenevka,Оленевка	45.38333	32.53333	P	PPL	UA	UA	11				2596		253	Europe/Simferopol	2009-02-18
+461734	Ozero Alibey	Ozero Alibey	Lake Alibei,Ozero Alibey	45.79739	30.00826	H	LK	UA		00				0		0	Europe/Simferopol	2012-01-17
+468196	Katerinovka	Katerinovka	Katerinovka,Yekaterinoslavskiy	47.69011	38.75174	P	PPL	UA		05				0		20	Europe/Kiev	2012-01-17
+469351	Yalpuh	Yalpuh	Bol'shoy Yalpug,Bol’shoy Yalpug,Ialpug,Ialpugul,Ialpugul Mare,Yalpug,Yalpuh,Yalpukh	45.68583	28.59111	H	STM	UA		00				0		0	Europe/Simferopol	2012-01-17
+470898	Vulkanicheskiy Khrebet	Vulkanicheskiy Khrebet	Vulkanicheskiy Khrebet,Vulkanicheskiye Karpaty	48.5	23	T	MTS	UA		00				0		559	Europe/Uzhgorod	2012-01-17
+471762	Vorsklytsya	Vorsklytsya	Vorsklitsa,Vorsklytsya	50.38333	35.11667	H	STM	UA		00				0		108	Europe/Zaporozhye	2012-01-17
+472810	Vovcha	Vovcha	Volch'ya,Volch’ya,Vovcha	50.29067	36.85901	H	STM	UA	UA	07				0		100	Europe/Zaporozhye	2012-01-17
+477032	Varenzhanka	Varenzhanka	Mlynski Potok,Mlynski Potok,Varenzhanka,Varezhanka,Warezanka,Warezanka	50.63333	24.16667	H	STM	UA		00				0		179	Europe/Uzhgorod	2012-01-17
+477085	Vanyushkyne	Vanyushkyne	Vanyushkin,Vanyushkyne	47.25389	38.26988	P	PPL	UA		05				0		60	Europe/Kiev	2012-01-17
+479565	Udy	Udy	Uda,Udy	49.8	36.61667	H	STM	UA	UA	00				0		86	Europe/Zaporozhye	2012-01-17
+480071	Tuzlyns’ka Kosa	Tuzlyns'ka Kosa	Kosa Tulza,Kosa Tuzla,Ostrov Tuzla,Tuzla Insel,Tuzlyns'ka Kosa,Tuzlyns’ka Kosa	45.26378	36.55402	T	ISL	UA		00				0		255	Europe/Simferopol	2012-01-17
+486824	Sudost’	Sudost'	Sudost',Sudost’	52.31667	33.4	H	STM	UA		00				0		123	Europe/Kiev	2012-01-17
+487076	Stublo	Stublo	Stubla,Stublo,Стубло	51.83617	26.15505	H	STM	UA		19				0		138	Europe/Kiev	2012-01-17
+487086	Strvyazh	Strvyazh	Reka Strvenzh,Reka Strvionzh,Strvyazh,Strwiaz,Strwiaz	49.6	23.46667	H	STM	UA		00				0		264	Europe/Uzhgorod	2012-01-17
+487307	Stratyva	Stratyva	Strativa,Stratshchva,Stratyva	52.3	32.43333	H	STM	UA		00				0		139	Europe/Kiev	2012-01-17
+487462	Hora Stih	Hora Stih	Gora Stig,Gora Stog,Gora Stug,Hora Stih,Munte Stog,Stoch,Stog,Stogu,Stoh,Гора Стіг	47.96882	24.5624	T	MT	UA		25				0		1612	Europe/Uzhgorod	2012-06-05
+488987	Starik	Starik	Starik	51.27645	30.58054	H	CHN	UA		00				0		98	Europe/Kiev	2012-01-17
+490588	Sopych	Sopych	Copich,Cопич,Sopich,Sopych,Sopych',Сопычь	51.8503	34.36082	P	PPL	UA		21				0		185	Europe/Kiev	2012-02-28
+490932	Solokiya	Solokiya	Fluss Solokija,Fluss Solokija,Reka Solokiya,River Solokija,River Solokija,Solokija,Solokiya,Solokija	50.38333	24.25	H	STM	UA		00				0		182	Europe/Uzhgorod	2012-01-17
+494448	Shilova Balka	Shilova Balka		46.81667	33.31667	P	PPL	UA		08				0		35	Europe/Kiev	1999-10-01
+496232	Seym	Seym	Seim,Seym	51.45	32.56667	H	STM	UA		00				0		115	Europe/Kiev	2012-01-17
+498678	Sarata	Sarata	Sarata,Serata,Sarata	45.8	29.68333	H	STM	UA		00				0		0	Europe/Simferopol	2012-01-17
+498959	Samiylove	Samiylove	Samiylove,Samoylov,Samoylovo	47.25492	38.24353	P	PPL	UA		05				0		76	Europe/Kiev	2012-01-17
+499393	Saka	Saka	Arsa,Saca,Saka,Seaca	46.2316	29.33917	H	STM	UA		00				0		33	Europe/Simferopol	2012-01-17
+499959	Liman Rybosol	Liman Rybosol	Liman Ribosol,Liman Rybosol	46.6	31.7	H	INLT	UA	UA	00				0		0	Europe/Simferopol	2012-01-17
+501993	Revna	Revna	Revna	52.08333	32.21667	H	STM	UA		00				0		121	Europe/Kiev	2012-01-17
+502656	Rata	Rata		50.35148	24.24569	H	STM	UA		00				0		189	Europe/Uzhgorod	2011-09-10
+504385	Ps’ol	Ps'ol	Ps'ol,Psel,Psel,Ps’ol	49.01667	33.53333	H	STM	UA		00				0		62	Europe/Zaporozhye	2012-01-17
+505257	Urzuf	Urzuf	Primorskoye,Urzuf,Zelenoye,Урзуф	46.91562	37.09961	P	PPL	UA		05				2904		8	Europe/Kiev	2012-01-17
+505426	Dnieper Lowland	Dnieper Lowland	Dnepr Lowland,Dneprovskaya Nizmennost',Dneprovskaya Nizmennost’,Dnieper Lowland,Pridneprovskaya Nizmennost',Pridneprovskaya Nizmennost’,Prydniprovs'ka Nyzovyna,Prydniprovs’ka Nyzovyna,Prydnyaprowskaya Nizina,Upper Dnieper Plain	50	32	T	PLN	UA		00				0		125	Europe/Kiev	2012-01-17
+505441	Black Sea Lowland	Black Sea Lowland	Black Sea Coastal Plain,Black Sea Lowland,Lower Dnieper Plain,Prichernomorskaya Nizmennost',Prichernomorskaya Nizmennost’,Prychornomors'ka Nyzovyna,Prychornomors’ka Nyzovyna	47	33	T	PLN	UA		00				0		56	Europe/Zaporozhye	2012-01-17
+509954	Petrovskiy	Petrovskiy		47.85	35.45	P	PPL	UA		26				0		105	Europe/Zaporozhye	1999-10-05
+514365	Oskol	Oskol		49.1	37.4	H	STM	UA	UA	00				0		105	Europe/Zaporozhye	1994-06-16
+515070	Orekhov	Orekhov		48.36861	39.92917	P	PPL	UA		14				0		31	Europe/Zaporozhye	1996-03-25
+515347	Vil’shanka	Vil'shanka	Ol'shanka,Olsanka,Olsanka,Ol’shanka,Vil'shanka,Vil’shanka,Вільшанка	48.12855	28.42556	H	STM	UA		87				0		42	Europe/Chisinau	2012-01-17
+517270	Novozuyivka	Novozuyivka	Novo-Zuyevka,Novozuyivka	45.2387	34.15456	P	PPL	UA		11				0		101	Europe/Simferopol	2012-01-17
+517704	Novo-Voznesenovka	Novo-Voznesenovka	Novo-Voznesenovka,Novo-Voznesenskoye,Novoye Voznesenskoye	48.0575	39.83111	P	PPL	UA	UA	14				0		288	Europe/Zaporozhye	2012-01-17
+519450	Novaya Ukrainka	Novaya Ukrainka		46.96667	37	P	PPL	UA		26				0		56	Europe/Zaporozhye	1997-09-19
+522115	Mykyts’ke	Mykyts'ke	Mikits'ke,Mykyts'ke,Mykyts’ke,Nikitskiy,Nikitskoye,Микитське	52.03985	34.09198	P	PPL	UA		21				0		183	Europe/Kiev	2012-02-28
+522527	Neskuchne	Neskuchne	Neskuchnaya,Neskuchne,Neskuchnoye	50.20745	36.57144	P	PPL	UA		07				0		133	Europe/Kiev	2012-01-17
+523713	Nadezhda	Nadezhda	Nadezhda,Надежда	45.20757	35.09924	P	PPL	UA		11				0		50	Europe/Simferopol	2012-01-17
+524293	Murom	Murom		50.14836	36.40271	H	STM	UA		07				0		111	Europe/Zaporozhye	2009-01-02
+532114	Makeyevka	Makeyevka		51.23529	34.59246	P	PPL	UA		21				0		155	Europe/Kiev	2011-09-10
+534248	Lopan’	Lopan'		49.93333	36.2	H	STM	UA		00				0		95	Europe/Zaporozhye	1996-04-03
+534422	Loknya	Loknya	Loknya	50.95	34.35	H	STM	UA		00				0		165	Europe/Kiev	2012-01-17
+536359	Lekhnova	Lekhnova	Chaszczowka,Chaszczowka,Lechnowa,Lechnowka,Lechnowka,Lekhnova,Reka Lekhnova	49.26667	22.83333	H	STM	UA		00				0		534	Europe/Uzhgorod	2012-01-17
+538992	Kurakhovka	Kurakhovka	KURAKHOVKA,Kurakhov,Kurakhova,Kurakhovka,Kurakovka,КУРАХОВКА	48.03069	37.37281	P	PPL	UA		05				0		199	Europe/Kiev	2012-01-17
+539934	Cuciurgan	Cuciurgan	Cuciurgan,Kuchurgan,Kuchurhan	46.72231	29.96844	H	STM	UA		00				0		1	Europe/Simferopol	2012-01-17
+542805	Krasnaya Dolina	Krasnaya Dolina		46.98333	37.03333	P	PPL	UA		26				0		42	Europe/Zaporozhye	1997-09-19
+543444	Kovs’ke	Kovs'ke	Kovs'ke,Kovskiy,Kovskoye,Kovs’ke	47.23698	38.23959	P	PPL	UA		05				0		57	Europe/Kiev	2012-02-01
+543667	Kotlyarevskoye	Kotlyarevskoye	Kotlyarevskoye,Kotlyarovkiy,Kotlyarovskiy	47.47258	38.29102	P	PPL	UA		05				0		70	Europe/Kiev	2012-01-17
+546708	Kohyl’nyk	Kohyl'nyk	Cogalnic,Cogalnicul,Cogilnic,Cogalnic,Cogalnicul,Cogilnic,Cohalnic,Kogil'nik,Kogil’nik,Kohyl'nyk,Kohyl’nyk,Kunduk,Reka Kogylnik	45.81056	29.675	H	STM	UA		00				0		0	Europe/Simferopol	2012-01-17
+547669	Kleven’	Kleven'	Kleven',Kleven’	51.4	33.58333	H	STM	UA		00				0		125	Europe/Kiev	2012-01-17
+547890	Kyyivs’ke Vodoskhovyshche	Kyyivs'ke Vodoskhovyshche	Kiev Reservoir,Kiyevskoye Vodokhranilishche,Kyyivs'ke Vodoskhovyshche,Kyyivs’ke Vodoskhovyshche	50.89438	30.49839	H	RSV	UA		00				0		98	Europe/Kiev	2012-01-17
+548133	Kislichevata	Kislichevata		47.85929	34.71283	P	PPL	UA		04				0		63	Europe/Kiev	2011-08-07
+548495	Kyrhyzh-Kytay	Kyrhyzh-Kytay	Chirghis Chitai,Chirghis Chitai,Kirghij-Kilai,Kirgizh-Kitay,Kyrhyzh-Kytay	45.71667	29.18333	H	STM	UA		00				0		1	Europe/Simferopol	2012-01-17
+548704	Bratul Chilia	Bratul Chilia	Bratu Chilia,Bratul Chilia,Bratu Chilia,Bratul Chilia,Chilia,Kilia Branch,Kiliys'ke Hyrlo,Kiliyskiy Dunay,Kiliyskiy Rukav,Kiliyskoye Girlo,Kiliyskoye Girlo Dunaya,Kiliys’ke Hyrlo,Rukav Kilia,Rukav Kiliya	45.3	29.66667	H	STM	UA		00				0		255	Europe/Simferopol	2012-01-17
+550558	Kharkiv	Kharkiv	Khar'kov,Kharkiv,Khar’kov	49.98333	36.21667	H	STM	UA		00				0		101	Europe/Zaporozhye	2012-01-17
+550839	Khodzhyder	Khodzhyder	Hadjidere,Khadzhider,Khodzhyder	45.90538	29.98062	H	STM	UA		00				0		254	Europe/Simferopol	2012-01-17
+551538	Kazach’ye-Rudchenkoye	Kazach'ye-Rudchenkoye		50.44148	35.97206	P	PPL	UA		07				0		171	Europe/Kiev	2011-09-10
+553045	Kaplan’	Kaplan'	Caplani,Caplani,Kaplan',Kaplany,Kaplan’,Reka Kaplani	46.18789	29.88666	H	STM	UA		00				0		21	Europe/Simferopol	2012-01-17
+553261	Komyshna	Komyshna	Kamyshevaka,Kamyshevaya,Kamyshnaya,Komyshna	48.92778	39.92167	H	STM	UA		00				0		47	Europe/Zaporozhye	2012-01-17
+554477	Lacul Cohul	Lacul Cohul	Lacul Cahul,Lacul Cohul,Lake Cahul,Ozero Kagul,Ozero Kagulo,Ozero Kahul,Ozero Kakhul	45.4	28.4	H	LK	UA		00				0		2	Europe/Simferopol	2012-01-17
+554949	Ivotka	Ivotka	Ivot,Ivotka,Івотка	51.95	33.36667	H	STM	UA		00				0		120	Europe/Kiev	2012-02-28
+556149	Irshiki	Irshiki		49.83718	27.39721	P	PPL	UA		09				0		292	Europe/Kiev	2011-09-10
+556942	Il’ya	Il'ya		51.23581	29.8793	H	STM	UA		00				0		110	Europe/Kiev	2011-09-10
+557745	Gutinskiy Khrebet	Gutinskiy Khrebet	Gutinskiy Khrebet,Gutinskiye Gory	48.08333	23.28333	T	MTS	UA		00				0		645	Europe/Uzhgorod	2012-01-17
+562153	Galicia	Galicia	Gali,Galicia,Galicie,Galicio,Galicja,Galitsiya,Galitsya,Galitzia,Galizia,Galizien,Halichina	49.5	23	L	RGN	UA	UA	00				0		341	Europe/Uzhgorod	2012-01-17
+565888	Dniester	Dniester	Danastris,Dnestr,Dniester,Dniester River,Dniestr,Dnister,Dnyestr,Nistru,Nistrul,Tyras	46.30404	30.27368	H	STM	UA		00				0		0	Europe/Simferopol	2012-01-17
+565895	Dnepro-Nemanskiy Kanal	Dnepro-Nemanskiy Kanal		51.18333	30.46667	H	CNL	UA		00				0		98	Europe/Kiev	1999-10-07
+565896	Dnieper	Dnieper	Borysthenes,Dneper River,Dnepr,Dnieper,Dnieper River,Dniepr,Dniepr River,Dnipro,Dnjepr,Dnyapro	46.4975	32.30861	H	STM	UA		00				0		0	Europe/Simferopol	2012-01-17
+566389	Desna	Desna	Desna	50.55	30.53333	H	STM	UA		00				0		90	Europe/Kiev	2012-01-17
+566487	Derevetskoye	Derevetskoye		46.97611	37.06056	P	PPL	UA		26				0		36	Europe/Zaporozhye	1998-03-11
+570100	Chaga	Chaga	Caga,Ceaga,Chaga,Caga	45.97868	29.43036	H	STM	UA		00				0		11	Europe/Simferopol	2012-01-17
+571096	Bukovina	Bukovina	Bocovina,Bucovina,Bucovinia,Bukovina,Bukowina	48	25.5	L	RGN	UA	UA	00				0		699	Europe/Uzhgorod	2012-01-17
+571227	Budzhak	Budzhak	Budzhak,Budzhakskaya Step',Budzhakskaya Step’,Budzhyak,Bugeac	46.25	29	L	RGN	UA		00				0		188	Europe/Simferopol	2012-01-17
+573894	Large Don Basin	Large Don Basin	Large Don Basin,Progib Bol'shogo Donbassa	49.5	36	T	PLN	UA	UA,RU	00				0		171	Europe/Zaporozhye	2009-03-07
+578204	Belaya	Belaya	Belaya,Bila	49.68333	39.03333	H	STM	UA		00				0		66	Europe/Zaporozhye	2012-01-17
+578327	Bihun’ka	Bihun'ka	Begun',Begun’,Bigun'ka,Bihun'ka,Bihun’ka,Бігунька	51.56725	28.18403	H	STM	UA		27				0		151	Europe/Kiev	2012-01-17
+578750	Batarch	Batarch	Batar,Batarch,Batarci,Batar,Batarci	48.03333	23.03333	H	STM	UA		00				0		124	Europe/Uzhgorod	2012-01-17
+578751	Batar	Batar	Batar,Bratovo,Батар	48.09311	22.84188	H	STM	UA		00				0		123	Europe/Uzhgorod	2012-05-05
+579986	Babey	Babey	Babey,Bebei	46.28804	29.61424	H	STM	UA		00				0		27	Europe/Simferopol	2012-01-17
+601791	Hora Roman-Kosh	Hora Roman-Kosh	Gora Roman-Kosh,Hora Roman-Kosh	44.61255	34.24131	T	PK	UA		00				0		1526	Europe/Simferopol	2012-01-17
+611130	Volodymyrivka	Volodymyrivka	Vladimirovka,Vladimirskiy,Volodimirivka,Volodymyrivka,Володимирівка	47.76341	34.8521	P	PPL	UA		04				0		113	Europe/Kiev	2012-01-17
+613273	Lebedyn	Lebedyn	LEBEDIN,Lebedin,Lebedyn,ЛЕБЕДИН	50.58518	34.4849	P	PPL	UA		21				27695		122	Europe/Kiev	2012-01-17
+613913	Khodorkovtsy	Khodorkovtsy	Khodorkovichi,Khodorkovtsy	49.57972	24.28091	P	PPL	UA		15				0		279	Europe/Kiev	2012-01-17
+616195	Staryye Bezradichi	Staryye Bezradichi	Stari Bezradychi,Staryye Bezradichi	50.16488	30.5749	P	PPL	UA		13				0		107	Europe/Kiev	2012-01-17
+616196	Staryy Dobrotvor	Staryy Dobrotvor	Staryy Dobrotvir,Staryy Dobrotvor	50.23154	24.377	P	PPL	UA		15				6436		201	Europe/Kiev	2012-01-17
+616743	Druzhkovka	Druzhkovka	DRUZHKOVKA,Druzhkovka,ДРУЖКОВКА	48.63013	37.55259	P	PPL	UA		05				62315		101	Europe/Kiev	2012-01-17
+617030	Yevhenivka	Yevhenivka	Evghenita,Yevgen'yevka,Yevgenita,Yevgenovka,Yevgen’yevka,Yevhenivka	46.38318	29.2056	P	PPL	UA		17				0		99	Europe/Kiev	2012-01-17
+617033	Chervonyy Granit	Chervonyy Granit	Chervany Granit,Chervonyy Granit,Shumi,Shumy,Шуми	48.25697	28.55348	P	PPL	UA		23				0		118	Europe/Kiev	2012-01-17
+617071	Olenokaryts'ke	Olenokaryts'ke	Koritskoye,Yelenovka,Yelenovka	47.37361	29.53389	P	PPL	UA	UA	17				0		183	Europe/Kiev	2007-05-30
+617198	Tsyhanivka	Tsyhanivka	Tsyganovka	47.81667	29.3	P	PPL	UA	UA	17				0		204	Europe/Kiev	2007-05-30
+617217	Trifeshty	Trifeshty	Trifesht',Trifeshty,Trifesht’,Trifesti,Trifesti	45.45	28.35	P	PPL	UA	UA	17				0		72	Europe/Kiev	2012-01-17
+617401	Skinosa	Skinosa	Schinoasa,Skinosa,Spinoasa	46.31784	29.00938	H	STM	UA		00				0		52	Europe/Simferopol	2012-01-17
+617607	Peruga Mike	Peruga Mike		46.4025	29.27	P	PPL	UA		00				0		52	Europe/Kiev	2007-05-30

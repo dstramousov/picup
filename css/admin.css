@@ -1,0 +1,485 @@
+a img {
+	border: none; /* Óáèðàåì ãðàíèöó */
+}
+
+
+.menuLink {
+/*	font-family: Verdana, Arial, Helvetica, sans-serif; */
+	font-family:Tahoma, Arial, sans-serif; text-transform:uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	color: #545454;
+	text-decoration: none;
+}
+
+a.menuLink:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #545454;
+}
+
+div.footer {
+	height: 33px;
+	position:absolute;
+	width: 100%;
+	bottom: 0px;
+	clear: both;
+	background-image: url(../images/admin/basebg.gif);
+}
+
+div.adminpanel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #FFFFFF;
+	margin-right: 22px;
+	padding-top: 10px;
+}
+
+div.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #FFFFFF;
+	margin-left: 44px;
+	padding-top: 10px;
+}
+
+div.panel_ver {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #FFFFFF;
+	margin-right: 34px;
+	padding-top: 10px;
+}
+
+div.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #545454;
+}
+
+/* - - - ADxMenu: BASIC styles [ MANDATORY ] - - - */
+.menu, .menu ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+	display: block;
+	font-family:Tahoma, Arial, sans-serif; font-size:10px; color:#f29130; font-weight:bold;
+}
+
+.menu li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+	float: left;	/* move all main list items into one row, by floating them */
+	position: relative;	/* position each LI, thus creating potential IE.win overlap problem */
+	z-index: 5;		/* thus we need to apply explicit z-index here... */
+}
+
+.menu li:hover {
+	z-index: 10000;	/* ...and here. this makes sure active item is always above anything else in the menu */
+	white-space: normal;/* required to resolve IE7 :hover bug (z-index above is ignored if this is not present)
+							see http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp for other stuff that work */
+}
+
+.menu li li {
+	float: none;/* items of the nested menus are kept on separate lines */
+}
+
+.menu ul {
+	visibility: hidden;	/* initially hide all submenus. */
+	position: absolute;
+	z-index: 10;
+	left: 0;	/* while hidden, always keep them at the top left corner, */
+	top: 0;		/* 		to avoid scrollbars as much as possible */
+}
+
+.menu li:hover>ul {
+	visibility: visible;	/* display submenu them on hover */
+	top: 100%;	/* 1st level go below their parent item */
+}
+
+.menu li li:hover>ul {	/* 2nd+ levels go on the right side of the parent item */
+	top: 0;
+	left: 100%;
+}
+
+/* -- float.clear --
+	force containment of floated LIs inside of UL */
+.menu:after, .menu ul:after {
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	clear: both;
+}
+.menu, .menu ul {	/* IE7 float clear: */
+	min-height: 0;
+}
+/* -- float.clear.END --  */
+
+/* -- sticky.submenu --
+	it should not disappear when your mouse moves a bit outside the submenu
+	YOU SHOULD NOT STYLE the background of the ".menu UL" or this feature may not work properly!
+	if you do it, make sure you 110% know what you do */
+.menu ul {
+	background-image: url(empty.gif);	/* required for sticky to work in IE6 and IE7 - due to their (different) hover bugs */
+	padding: 10px 30px 30px 30px;
+	margin: -10px 0 0 -30px;
+	/*background: #f00;*/	/* uncomment this if you want to see the "safe" area.
+								you can also use to adjust the safe area to your requirement */
+}
+.menu ul ul {
+	padding: 30px 30px 30px 10px;
+	margin: -30px 0 0 -10px;
+}
+/* -- sticky.submenu.END -- */
+
+
+/* - - - ADxMenu: DESIGN styles [ OPTIONAL, design your heart out :) ] - - - */
+
+.menu, .menu ul li {
+	padding: 0.2em;
+}
+
+.menu li ul li {	
+	background: #FFFFFF;
+}
+
+.menu ul {
+	width: 20em;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #545454;
+	padding: .2em 1.7em;
+	display: block;
+	position: relative;
+}
+
+/* +ªüõ¢ðõüvù ÿºýúª üõý¦ */
+.menu a:hover, .menu li:hover>a {
+	color: #a21111;
+}
+
+.menu li li {	/* create borders around each item */
+	border: 1px solid #c0c0c0;
+}
+.menu ul>li + li {	/* and remove the top border on all but first item in the list */
+	border-top: 0;
+}
+
+.menu li li:hover>ul {	/* inset 2nd+ submenus, to show off overlapping */
+	top: 5px;
+	left: 90%;
+}
+
+
+/*
+* Common area
+*/
+ 
+
+/*
+* Base (fonts, scroll, paddings, margins)
+*/
+
+body {font: 85% "Tahoma", Times, serif, Sans-serif; margin: 0px; padding: 0px; color: black;}
+body {scrollbar-track-color: "#E3E6ED"; scrollbar-3dlight-color: #888888; scrollbar-arrow-color: Black; scrollbar-base-color: "#CFDAEE"; scrollbar-darkshadow-color: "#CFDAEE"; scrollbar-face-color: "#CFDAEE"; scrollbar-highlight-color: "#CFDAEE"; scrollbar-shadow-color: "#CFDAEE";}
+table {font: 85% "Tahoma", Times, serif, Sans-serif; margin: 0px; padding: 0px; color: black;}
+td {font: 1.2em "Tahoma", Times, serif, Sans-serif; margin: 0px; padding: 0px; color: black; border: 0px solid Black; }
+th {font: 1.25em "Tahoma", Times, serif, Sans-serif; margin: 0px; padding: 0px; color: black; border: 0px solid Black; }
+
+/*
+* Base tables cells'
+*/
+
+td.cnt {text-align: center; padding: 4px;}
+td.lft {text-align: left; padding: 4px;}
+td.rht {text-align: right; padding: 4px;}
+td.cnt-np {text-align: center;}
+td.lft-np {text-align: left;}
+td.rht-np {text-align: right;}
+
+td.ver-cnt {text-align: center; padding: 3px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.ver-lft {text-align: left; padding: 3px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.ver-rht {text-align: right; padding: 3px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.ver-cnt-np {text-align: center; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.ver-lft-np {text-align: left; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.ver-rht-np {text-align: right; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+
+td.empty {text-align: center; padding: 20px 4px;}
+
+/*
+* Links  
+*/
+
+a { font: "Tahoma", Times, serif, Sans-serif; color:#7F887A; }
+a:hover { font: "Tahoma", Times, serif, Sans-serif; color: #7F887A; text-decoration:none; }
+a:link { font: "Tahoma", Times, serif, Sans-serif; color:#7F887A; }
+a:visited { font: "Tahoma", Times, serif, Sans-serif; color:#7F887A; }
+a:active { font: "Tahoma", Times, serif, Sans-serif; color:#7F887A; }
+
+a.menu { font: bold .9em "Tahoma", Times, serif, Sans-serif; color:#7F887A; text-decoration:none;}
+a.menu:hover { font: bold .9em "Tahoma", Times, serif, Sans-serif; color:#7F887A; text-decoration:underline;}
+td.menu { font: bold .9em "Tahoma", Times, serif, Sans-serif; color:#7F887A; text-decoration:underline;}
+a.menu:link { font: bold .9em "Tahoma", Times, serif, Sans-serif; color:#7F887A; }
+a.menu:visited { font: bold .9em "Tahoma", Times, serif, Sans-serif; color:#7F887A; }
+a.menu:active { font: bold .9em "Tahoma", Times, serif, Sans-serif; color:#242A20; }
+
+a.action {    font: "Tahoma", Times, serif, Sans-serif, Helvetica, sans-serif; color:#7F887A; }
+a.action:link {    color: Black; text-decoration: none; color:#7F887A; }
+a.action:visited {    color: Black; text-decoration: none; color:#7F887A; }
+a.action:hover {    color: Black; text-decoration: underline; color:#7F887A; }
+a.action:active {    color: Black; text-decoration: none; color:#7F887A; }
+
+a.tbl-hdr {    font: 11pt "Tahoma", Courier, monospace; font-weight : bold;}
+a.tbl-hdr:link {    color: Black; text-decoration: none;}
+a.tbl-hdr:visited {    color: Black; text-decoration: none;}
+a.tbl-hdr:hover {    color: Black; text-decoration: underline;}
+a.tbl-hdr:active {    color: Black; text-decoration: none;}
+
+a.ticket_off{ font:8pt "Tahoma"; text-decoration:none;}
+a.ticket{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.ticket:link{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.ticket:visited{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.ticket:hover{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.ticket:active{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+
+a.wd_off{ font:8pt "Tahoma"; text-decoration:none;}
+a.wd{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.wd:link{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.wd:visited{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.wd:hover{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.wd:active{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+
+a.tr_rk_off{ font:8pt "Tahoma"; text-decoration:none;}
+a.tr_rk{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.tr_rk:link{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.tr_rk:visited{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.tr_rk:hover{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+a.tr_rk:active{ font:8pt "Tahoma"; text-decoration:underline; color:#000000;}
+/*
+* Inputs (buttons, text, textarea)
+*/
+
+input.btn-nb {border:none; vertical-align: top;}
+input.cb_rb {border: none;}
+input.button { font: 90%; repeat-x;background-position: bottom; border: 1px solid #8799A7;  }
+
+input {border: 1px solid #B4C7D6; font: 90% "Tahoma", Courier, monospace; margin: 2px;width: 200px;}
+input.in100 {width: 100px;}
+input.in150 {width: 150px;}
+input.in30  {width: 30px;}
+input.in200 {width: 200px;}
+input.in300 {width: 300px;}
+input.in400 {width: 400px;}
+
+textarea {border: 1px solid #B4C7D6; font: "Tahoma", Times, serif, Sans-serif;  text-decoration:none;}
+textarea.in200 {width: 200px;}
+textarea.in300 {width: 300px;}
+textarea.in400 {width: 400px;}
+textarea.in150 {width: 150px;}
+
+
+#markerTypes li input {width: 20px;} 
+
+/*
+* Headers
+*/
+
+h1.dialog { font: 1.1em  "Tahoma", Times, serif, Sans-serif; margin-bottom: 5px; color:#34506E}
+h1 {font: 1.7em "Tahoma", Times, serif, Sans-serif; }
+h1.cnt {font: 1.7em "Tahoma", Times, serif, Sans-serif; text-align: center;}
+h2 {font: 1.6em "Tahoma", Times, serif, Sans-serif;}
+h2.cnt {font: 1.6em "Tahoma", Times, serif, Sans-serif; text-align: center;}
+h3 {font: 1.4em "Tahoma", Times, serif, Sans-serif; text-align: left; border: 0px solid Black; }
+h3.cnt {font: 1.4em "Tahoma", Times, serif, Sans-serif; text-align: center;}
+p { padding: 10px; text-align: justify; text-indent: 20px; margin: 0px; border: 0px solid Black; font-size: 110%;}
+p.ni { text-align: justify; margin: 0px; border: 0px solid Black; font-size: 110%;}
+
+/*
+* Content boxes
+*/
+
+table.base-box { margin-left: 20px; border: 0px solid Black;}
+th.bb-hdr {font-size: 1.7em; padding: 5px; text-align: center;}
+td.bb-cnt {padding: 5px; text-align: center;}
+td.bb-lft {padding: 20px; text-align: left; width: auto;}
+td.bb-rht {padding: 5px; text-align: right; width: auto;}
+
+table.edit-box { margin: 20px; border: 0px solid Black; }
+th.eb-hdr {font-size: 1.5em; padding: 20px 20px; text-align: center; }
+td.eb-hdr {padding: 4px 4px 20px; text-align: center;}
+td.eb-cnt {padding: 2px; text-align: center;}
+td.eb-lft {padding: 1px 4px 1px; text-align: right; width: 40%;}
+td.eb-rht {padding: 1px 4px 1px; text-align: left; width: 60%;}
+
+table.table-box {border-collapse: collapse;}
+tr.tb-hdr {background: #E7EEF9; font: "Tahoma", Courier, monospace; font-weight : bold;}
+tr.tb-hdr_no_order_by {background: #E7EEF9; font: "Tahoma", Courier, monospace; font-weight : bold; color: #DAE5FB;}
+tr.tb-odd {background: #F9FCFF;}
+tr.tb-even {background: #F2F6FB;}
+th.tb-hdr {padding: 6px 4px; text-align: center; border: 1px solid #FFFFFF; font: 11pt "Tahoma", Courier, monospace; font-weight : bold;}
+th.tb-lhdr {padding: 6px 4px; text-align: left; border: 1px solid #FFFFFF; font: 11pt "Tahoma", Courier, monospace; }
+th.tb-rhdr {padding: 6px 4px; text-align: right; border: 1px solid #FFFFFF; font: 11pt "Tahoma", Courier, monospace; }
+th.tb-hdr-small {padding: 6px 4px; text-align: center; border: 1px solid #FFFFFF; font: 9pt "Tahoma", Courier, monospace; }
+td.tb-section {padding: 6px 4px; text-align: left; border: 1px solid #FFFFFF; color: #666666; font-weight: bold; font-size: 10pt}
+td.tb-sec-line {text-align: left; border: 1px solid #FFFFFF; background-color: #CCCCCC}
+td.tb-cnt {font:10pt "Tahoma";padding: 6 4; text-align: center; border: 1px solid #FFFFFF;}
+td.tb-lft {font:10pt "Tahoma";padding: 6 4 6 10; text-align: left; border: 1px solid #FFFFFF;}
+td.tb-rht {font:10pt "Tahoma";padding: 6 4; text-align: right; border: 1px solid #FFFFFF;}
+
+table.table-trn-failed{border-collapse:collapse; border-bottom:1px solid #666666; border-top:1px solid #FFFFFF; background-color:#FFE1E3;}
+table.table-trn-processed{border-collapse:collapse; border-bottom:1px solid #666666; border-top:1px solid #FFFFFF; background-color:#E1E0FF;}
+td.trn-cnt {font:8pt "Tahoma";padding: 6 4; text-align: center;}
+td.trn-lft {font:8pt "Tahoma";padding: 2 4 1 4; text-align: left;}
+td.trn-rht {font:8pt "Tahoma";padding: 2 4 1 4; text-align: right;}
+
+table.view-box {border-collapse: collapse; border: 1px solid #FFFFFF; width: 500px;}
+th.vb-hdr {font-size: 1.3em; padding: 6px 4px; text-align: center; background: #DAE5FB;}
+tr.vb-hdr {background: #E7EEF9;}
+th.vb-hdr {background: #E7EEF9; border: 1px solid #FFFFFF;}
+tr.vb-title {background: #F5F9FE;}
+td.vb-title {padding: 6px 8px; text-align: left;  font: 120%;}
+tr.vb-content {background: #F9FCFF; }
+td.vb-content {padding: 5px; text-align: left; padding: 30px 30px; border: 1px solid #FFFFFF;}
+td.vb-hdr {padding: 2px; text-align: center;}
+td.vb-cnt {padding: 2px; text-align: center;}
+td.vb-lft {padding: 2px; text-align: left;}
+td.vb-rht {padding: 2px; text-align: right;}
+
+table.browse-ticket-box {border-collapse: collapse;}
+tr.btb-forwarded {background: #CFE4EF;}
+tr.btb-unaccepted {background: #F0D8CE;}
+tr.btb-processed {background: #E7ECCC;}
+th.btb-hdr {background: url('../images/browse_ticket_bg.jpg') repeat-x; padding: 0px 4px; text-align: center; vertical-align: middle; font: 11pt "Tahoma", Courier, monospace; border-left: 0px solid #FFFFFF; }
+td.btb-cnt {padding: 6 4; text-align: center; border: 1px solid #FFFFFF;}
+td.btb-lft {padding: 6 4 6 10; text-align: left; border: 1px solid #FFFFFF;}
+td.btb-rht {padding: 6 4; text-align: right; border: 1px solid #FFFFFF;}
+
+tr.wtb-queued {background: #CFE4EF;}
+tr.wtb-suspended {background: #F0D8CE;}
+tr.wtb-processed {background: #E7ECCC;}
+
+table.view-ticket-box {border-collapse: collapse; border: 1px solid #FFFFFF; width: 500px;}
+th.tckt-hdr {font-size: 1.7em; padding: 20px 20px; text-align: center; }
+td.tckt-hdr {font: bold 1.3em; padding: 2px; text-align: center; padding: 10px 10px;}
+td.tckt-cnt {padding: 6px; text-align: center; width: 30%; border-bottom: 1px solid #EAEAEA; font-size: 120%; }
+td.tckt-lft {padding: 6px; text-align: left; width: 70%;  border-bottom: 1px solid #EAEAEA; font-size: 120%; }
+td.tckt-rht {padding: 6px; text-align: right; }
+td.tckt-hdr-disabled {font: bold 1.3em; padding: 2px; text-align: center; padding: 10px 10px; color: #aaaaaa; }
+td.tckt-cnt-disabled {padding: 6px; text-align: center; width: 30%; border-bottom: 1px solid #EAEAEA; font-size: 120%; color: #aaaaaa; }
+td.tckt-lft-disabled {padding: 6px; text-align: left; width: 70%;  border-bottom: 1px solid #EAEAEA; font-size: 120%; color: #aaaaaa; }
+td.tckt-rht-disabled {padding: 6px; text-align: right; color: #aaaaaa; }
+
+table.total-report-box {border: 1px solid #CACACA; width: 100%; border-collapse: collapse;}
+tr.trb-title {background: #E7EEF9;}
+tr.trb-odd {background: #F9FCFF; }
+tr.trb-even {background: #F2F6FB;}
+td.trb-cnt-cs {padding: 4px; text-align: center; border: none; border: 1px solid #CACACA; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.trb-lft-cs {padding: 4px; text-align: left; border: 1px solid #CACACA; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.trb-bcnt {padding: 4px; text-align: center; border: none; border: 1px solid #CACACA; width: 30px; font: bold 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.trb-cnt {padding: 4px; text-align: center; border: none; border: 1px solid #CACACA; width: 30px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.trb-rht {padding: 0px; text-align: right; border: none; border: 1px solid #CACACA; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.trb-lft {padding: 0px; text-align: left; border: none; border: 1px solid #CACACA; font-size: 9px; padding-right: 20px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+
+table.top-seller-cell-box {border: 0px solid #CACACA; width: 100%; border-collapse: collapse;}
+tr.tscb-title {background: #E7EEF9;}
+tr.tscb-odd {background: #F9FCFF; }
+tr.tscb-even {background: #F2F6FB;}
+td.tscb-cnt {padding: 6 4; text-align: center; border: none; border: 0px solid #CACACA; font: 9px Verdana, Arial, Helvetica, Sans-serif;}
+td.tscb-rht {padding: 6 4; text-align: right; border: none; border: 0px solid #CACACA; font: 9px Verdana, Arial, Helvetica, Sans-serif;}
+td.tscb-lft {padding: 6 4; text-align: left; border: none; border: 0px solid #CACACA; font: 9px Verdana, Arial, Helvetica, Sans-serif;}
+
+/*
+* Statistics boxes
+*/
+
+table.statistic-box {border: 1px solid #CACACA; width: 100%; border-collapse: collapse;}
+tr.sb-title {background: #E7EEF9;}
+tr.sb-content {background: #F9FCFF; }
+td.sb-cnt-cs {padding: 4px; text-align: center; border: none; border: 1px solid #CACACA; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.sb-lft-cs {padding: 4px; text-align: left; border: 1px solid #CACACA; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.sb-bcnt {padding: 4px; text-align: center; border: none; border: 1px solid #CACACA; width: 30px; font: bold 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.sb-cnt {padding: 4px; text-align: center; border: none; border: 1px solid #CACACA; width: 30px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.sb-rht {padding: 0px; text-align: right; border: none; border: 1px solid #CACACA; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+td.sb-lft {padding: 0px; text-align: left; border: none; border: 1px solid #CACACA; font-size: 9px; padding-right: 20px; font: 10px Verdana, Arial, Helvetica, Sans-serif;}
+
+
+/*
+* Pager
+*/
+
+a.pager {    font: 8pt "Tahoma", Times, serif, Sans-serif, Helvetica, sans-serif;}
+a.pager:link {    color: Black; text-decoration: underline;}
+a.pager:visited {    color: Black; text-decoration: underline;}
+a.pager:hover {    color: Black; text-decoration: none;}
+a.pager:active {    color: Black; text-decoration: underline;}
+
+a.pager-sel {    font: 83% "Tahoma", Times, serif, Sans-serif, Helvetica, sans-serif; content: string;}
+a.pager-sel:link {    color: Black; text-decoration: none; content: string;}
+a.pager-sel:visited {    color: Black; text-decoration: none; content: string;}
+a.pager-sel:hover {    color: Black; text-decoration: underline; content: string;}
+a.pager-sel:active {    color: Black; text-decoration: none; content: string;}
+
+td.pager { font: 10pt "Tahoma"}
+/*
+* Notification boxes
+*/
+
+table.errorbox { width: 300px; border: 1px solid Red; margin: 5px; font: 8pt "Tahoma", Times, serif, Sans-serif, Helvetica, sans-serif; }
+th.errorbox { background: Red; color: White; }
+td.errorbox { font: bold 11pt; padding: 3 10; }
+table.messagebox { width: 300px; border: 1px solid Teal; margin: 5px; font: 8pt "Tahoma", Times, serif, Sans-serif, Helvetica, sans-serif; }
+th.messagebox { background: Teal; color: White; }
+td.messagebox { font: 11pt; padding: 3 10; }
+table.confirmationbox { border: 1px solid #3F86D4; margin: 5px;}
+th.confirmationbox { background: #3F86D4; color: White; font: 8pt "Tahoma", Times, serif, Sans-serif, Helvetica, sans-serif; text-align:center}
+
+/*
+* Extra data
+*/
+
+td.header { font: bold 10pt "Tahoma", Times, serif, Sans-serif; color:white; vertical-align: middle; }
+
+td.title { font: 1em "Tahoma", Times, serif, Sans-serif; color:#7D94B6; font-weight: bold; }
+
+td.info { font: "Tahoma", Times, serif, Sans-serif; color:#3D4935; }
+td.form { font: "Tahoma", Times, serif, Sans-serif; color:#647693; }
+
+td.news-entry { padding: 4px; padding-left: 15px; }
+
+td.clocks { font: bold 10pt Arial; color: #7989AB; }	
+td.news { font: 9pt Tahoma; color: #585454; }	
+td.shop { font: 8pt Tahoma; color: #A1A1A1;	}	
+td.text { font: 8pt Tahoma; color: #344A61; }	
+a.location { font: 8pt Tahoma; color: #84A1C0; text-decoration:underline; }	
+a.location:hover { font: 8pt Tahoma; color: #84A1C0; text-decoration:none; }	
+td.location { font: 8pt Tahoma; color: #84A1C0; }	
+a.catalog { font: 8pt Tahoma; color: #6B7BA8; text-decoration:underline; }	
+a.catalog:hover { font: 8pt Tahoma; color: #515F87; text-decoration:underline; }	
+td.bottom { font: 8pt Tahoma; color:white; }	
+a.bottom { font: 8pt Tahoma; color: #6B6D72; text-decoration:none; }	
+a.bottom:hover { font: 8pt Tahoma; color: #6B6D72; text-decoration:underline; }	
+
+.login { font: 8pt Tahoma; color: #515F87; font-weight:bold}	
+
+input.data {  
+	width:19px !important;
+	height:19px !important;
+	background-image:url(../images/calendar.png);
+	background-repeat:no-repeat;
+	padding:0px 0px 0px 0px;		
+	margin:0px 0px 0px 0px;	
+	border:none !important;
+	cursor:pointer;
+}
